@@ -1,0 +1,26 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint src",
+    "dev": "tsup src --format esm && node dist/index",
+    "build": "tsup src --format esm",
+    "start": "node dist/index"
+  },
+  "author": "nhd98z",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@types/node": "^20.14.11",
+    "eslint": "9.x",
+    "globals": "^15.8.0",
+    "prettier": "^3.3.2",
+    "tsup": "^8.1.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.16.1"
+  },
+  "dependencies": {
+  },
+  "type": "module"
+}
